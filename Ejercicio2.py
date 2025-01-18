@@ -1,0 +1,5 @@
+print("Dime un numero de kilometros")
+kilometros = input()
+kilometros = float(kilometros)
+millas = float(kilometros*0.621371)
+print(kilometros,"kilometros son",millas,"millas")
